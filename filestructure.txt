@@ -120,6 +120,12 @@
                         |-- ShiftManagement.js
                         |-- ShiftSwapRequest.js
                 |-- index.js
+                |-- LocationModule
+                    |-- Activelocation
+                        |-- attendanceData.json
+                        |-- LocationTracking.js
+                    |-- Dashboard
+                        |-- LocationDashboard.js
                 |-- LocationsManagement
                     |-- AddLocation.js
                     |-- LocationsList.js
