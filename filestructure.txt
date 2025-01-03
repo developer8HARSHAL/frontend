@@ -88,6 +88,8 @@
                         |-- ProjectsPage.js
                     |-- QuoteOrderManagement
                         |-- QuoteOrderManagement.js
+                    |-- SurveyFeedbackManagement
+                        |-- SurveyFeedbackManagement.js
                     |-- TaskManagement
                         |-- task
                             |-- [id].js
