@@ -41,6 +41,7 @@
                 |-- Footer.js
                 |-- Header.js
                 |-- Layout.js
+                |-- MapComponent.js
             |-- layouts
                 |-- AdminLayout.js
                 |-- MainLayout.js
@@ -73,19 +74,29 @@
                         |-- CustomerFormModal.js
                         |-- CustomerManagement.js
                     |-- Dashboard.js
+                    |-- EventManagement
+                        |-- EventManagement.js
                     |-- LeadManagement
                         |-- LeadFormModal.js
                         |-- LeadManagement.js
+                    |-- PartnerManagement
+                        |-- PartnerManagement.js
                     |-- ProjectList
                         |-- ProjectDetails.js
                         |-- ProjectFilters.js
                         |-- ProjectList.js
                         |-- ProjectsPage.js
+                    |-- QuoteOrderManagement
+                        |-- QuoteOrderManagement.js
                     |-- TaskManagement
                         |-- task
                             |-- [id].js
                         |-- TaskFormModal.js
                         |-- TaskManagement.js
+                    |-- TerritoryManagement
+                        |-- attendanceData.json
+                        |-- MapComponent.js
+                        |-- TerritoryManagement.js
                 |-- DepartmentManagement
                     |-- AddDepartment.js
                     |-- DepartmentList.js
@@ -123,9 +134,19 @@
                 |-- LocationModule
                     |-- Activelocation
                         |-- attendanceData.json
+                        |-- Attendancetracking
+                            |-- AttendancePage.js
                         |-- LocationTracking.js
+                        |-- Map.js
                     |-- Dashboard
                         |-- LocationDashboard.js
+                    |-- MapSetting
+                        |-- MapComponent.js
+                        |-- MapSettings.js
+                    |-- RoutePlanning
+                        |-- DashboardContent.js
+                        |-- Metrics.js
+                        |-- RoutePlanningPage.js
                 |-- LocationsManagement
                     |-- AddLocation.js
                     |-- LocationsList.js
