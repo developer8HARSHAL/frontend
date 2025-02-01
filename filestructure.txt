@@ -1,3 +1,4 @@
+|-- f
 |-- FieldForceHRMS
     |-- .env
     |-- .gitignore
@@ -63,7 +64,12 @@
                         |-- Attendance1.csv
                         |-- attendanceData.json
                         |-- AttendancePage.js
+                    |-- AttendanceSettings
+                        |-- AttendanceSettings.js
+                        |-- MapComponent.js
                 |-- CRMModule
+                    |-- BeatPlanning
+                        |-- BeatPlanning.js
                     |-- CommunicationManagement
                         |-- AddFormCommunication.js
                         |-- CommunicationManagement.js
@@ -79,6 +85,9 @@
                     |-- LeadManagement
                         |-- LeadFormModal.js
                         |-- LeadManagement.js
+                    |-- MarketingCampaigns
+                        |-- CampaignModal.js
+                        |-- MarketingCampaigns.js
                     |-- PartnerManagement
                         |-- PartnerManagement.js
                     |-- ProjectList
@@ -88,13 +97,24 @@
                         |-- ProjectsPage.js
                     |-- QuoteOrderManagement
                         |-- QuoteOrderManagement.js
+                        |-- QuoteTable.js
+                    |-- ReportingAnalytics
+                        |-- ReportingAnalytics.js
+                    |-- Settings
+                        |-- Settings.js
                     |-- SurveyFeedbackManagement
                         |-- SurveyFeedbackManagement.js
                     |-- TaskManagement
+                        |-- layout.js
+                        |-- page.js
                         |-- task
-                            |-- [id].js
+                            |-- [id]
+                                |-- page.js
+                        |-- TaskContext.js
+                        |-- TaskContextProvider.js
                         |-- TaskFormModal.js
                         |-- TaskManagement.js
+                        |-- TaskProviderWrapper.js
                     |-- TerritoryManagement
                         |-- attendanceData.json
                         |-- MapComponent.js
@@ -121,12 +141,20 @@
                             |-- [team].js
                     |-- EmployeesManagement
                         |-- AddEmployee.js
+                        |-- AddRecordForm.js
                         |-- CreateEmployeeForm.js
                         |-- EmployeeList.js
                         |-- EmployeeProfile.js
                         |-- EmployeeTransfer.js
                         |-- PromotionHistory.js
                         |-- ResignationTermination.js
+                    |-- LeaveManagement
+                        |-- LeaveManagement.js
+                        |-- leaveUtils.js
+                    |-- PayrollManagement
+                        |-- PayrollOverview.js
+                        |-- PayrollPage.js
+                        |-- PayrollTabs.js
                     |-- ShiftManagement
                         |-- AddShift.js
                         |-- OvertimeManagement.js
@@ -165,6 +193,14 @@
                         |-- ProjectFormModal.js
                         |-- ProjectPlanning.js
                         |-- ProjectTemplates.js
+                    |-- ResourceManagement
+                        |-- ResourceManagement.js
+                    |-- TaskManagement
+                        |-- TaskHeader.js
+                        |-- TaskManagement.js
+                        |-- useTaskManagement.js
+                    |-- TeamManagement
+                        |-- TeamManagement.js
                 |-- superAdmin
                     |-- Dashboard
                         |-- DashboardPage.js
@@ -172,12 +208,13 @@
                         |-- OrganisationFormPage.js
                         |-- OrganisationListPage.js
                         |-- OrganisationViewPage.js
+                        |-- view
+                            |-- [id].js
                     |-- Profile
                         |-- SuperAdminProfilePage.js
                     |-- UserManagement
-                        |-- CreateSubSuperAdminPage.js
-                        |-- Definerole.js
-                        |-- Manageroles.js
+                        |-- SharedComponents.js
+                        |-- UserManagement.js
                 |-- _app.js
             |-- services
                 |-- api.js
